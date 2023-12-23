@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModularMonolithPoC", "ModularMonolithPoC\ModularMonolithPoC.csproj", "{96AAD446-2632-4296-AD47-18CB405351A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E01258B6-A43E-420F-9AB7-225AE1762326}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModularMonolithPoC.Login", "ModularMonolithPoC.Login\ModularMonolithPoC.Login.csproj", "{B2E77476-3191-46D5-85B5-E20115513D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithPoC.Login.Pages", "ModularMonolithPoC.Login.Pages\ModularMonolithPoC.Login.Pages.csproj", "{12C44E03-ADF5-4C9E-9EC5-1A8EE476789B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithPoC.Infrastructure.Interfaces", "ModularMonolithPoC.Infrastructure.Interfaces\ModularMonolithPoC.Infrastructure.Interfaces.csproj", "{EB31B117-0305-41CC-A7D0-3E3261F6064D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithPoC.Infrastructure", "ModularMonolithPoC.Infrastructure\ModularMonolithPoC.Infrastructure.csproj", "{29C1BE75-9024-4805-B051-FCA2081BBB62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{99AA1994-028A-4290-AB94-A5771D0167CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F678FE21-CD55-4C45-884B-232DC81FE031}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductList", "ProductList", "{70858E82-0816-41A0-860A-151B6E0F354B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithPoC.ProductList", "ModularMonolithPoC.ProductList\ModularMonolithPoC.ProductList.csproj", "{EB799D72-236D-4EC4-A22D-D6902FF6E45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithPoC.ProductList.Pages", "ModularMonolithPoC.ProductList.Pages\ModularMonolithPoC.ProductList.Pages.csproj", "{7F0A45E0-A156-4D4E-A442-0B28547E093A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96AAD446-2632-4296-AD47-18CB405351A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AAD446-2632-4296-AD47-18CB405351A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AAD446-2632-4296-AD47-18CB405351A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AAD446-2632-4296-AD47-18CB405351A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E77476-3191-46D5-85B5-E20115513D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E77476-3191-46D5-85B5-E20115513D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E77476-3191-46D5-85B5-E20115513D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E77476-3191-46D5-85B5-E20115513D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C44E03-ADF5-4C9E-9EC5-1A8EE476789B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C44E03-ADF5-4C9E-9EC5-1A8EE476789B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C44E03-ADF5-4C9E-9EC5-1A8EE476789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C44E03-ADF5-4C9E-9EC5-1A8EE476789B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB31B117-0305-41CC-A7D0-3E3261F6064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB31B117-0305-41CC-A7D0-3E3261F6064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB31B117-0305-41CC-A7D0-3E3261F6064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB31B117-0305-41CC-A7D0-3E3261F6064D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C1BE75-9024-4805-B051-FCA2081BBB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C1BE75-9024-4805-B051-FCA2081BBB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C1BE75-9024-4805-B051-FCA2081BBB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C1BE75-9024-4805-B051-FCA2081BBB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB799D72-236D-4EC4-A22D-D6902FF6E45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB799D72-236D-4EC4-A22D-D6902FF6E45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB799D72-236D-4EC4-A22D-D6902FF6E45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB799D72-236D-4EC4-A22D-D6902FF6E45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0A45E0-A156-4D4E-A442-0B28547E093A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0A45E0-A156-4D4E-A442-0B28547E093A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0A45E0-A156-4D4E-A442-0B28547E093A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0A45E0-A156-4D4E-A442-0B28547E093A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2E77476-3191-46D5-85B5-E20115513D6C} = {99AA1994-028A-4290-AB94-A5771D0167CC}
+		{12C44E03-ADF5-4C9E-9EC5-1A8EE476789B} = {99AA1994-028A-4290-AB94-A5771D0167CC}
+		{29C1BE75-9024-4805-B051-FCA2081BBB62} = {F678FE21-CD55-4C45-884B-232DC81FE031}
+		{99AA1994-028A-4290-AB94-A5771D0167CC} = {E01258B6-A43E-420F-9AB7-225AE1762326}
+		{F678FE21-CD55-4C45-884B-232DC81FE031} = {E01258B6-A43E-420F-9AB7-225AE1762326}
+		{70858E82-0816-41A0-860A-151B6E0F354B} = {E01258B6-A43E-420F-9AB7-225AE1762326}
+		{EB799D72-236D-4EC4-A22D-D6902FF6E45E} = {70858E82-0816-41A0-860A-151B6E0F354B}
+		{7F0A45E0-A156-4D4E-A442-0B28547E093A} = {70858E82-0816-41A0-860A-151B6E0F354B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F85ABA2-A1A2-4A95-8E3E-7E874F2C69FD}
+	EndGlobalSection
+EndGlobal

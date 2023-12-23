@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModularMonolithPoC.Infrastructure.Interfaces\ModularMonolithPoC.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\ModularMonolithPoC.Infrastructure\ModularMonolithPoC.Infrastructure.csproj" />
+    <ProjectReference Include="..\ModularMonolithPoC.Login.Pages\ModularMonolithPoC.Login.Pages.csproj" />
+    <ProjectReference Include="..\ModularMonolithPoC.Login\ModularMonolithPoC.Login.csproj" />
+    <ProjectReference Include="..\ModularMonolithPoC.ProductList.Pages\ModularMonolithPoC.ProductList.Pages.csproj" />
+    <ProjectReference Include="..\ModularMonolithPoC.ProductList\ModularMonolithPoC.ProductList.csproj" />
+  </ItemGroup>
+	
+</Project>

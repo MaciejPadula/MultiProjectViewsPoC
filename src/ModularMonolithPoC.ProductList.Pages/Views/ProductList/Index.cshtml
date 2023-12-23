@@ -1,0 +1,26 @@
+@model ModularMonolithPoC.ProductList.Pages.Models.IndexModel
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <div>Top Products</div>
+    <div style="display: flex; flex-direction: row;">
+        @foreach (var topProduct in Model.TopProducts)
+        {
+            <h3 style="margin: 1rem;">@topProduct.Name</h3>
+        }
+    </div>
+</div>
+
+<br />
+<div>All Products</div>
+@foreach(var product in Model.Products)
+{
+    <div>
+        <h3>@product.Name</h3>
+        <div>@product.Description</div>
+        <small>@product.Price z³</small>
+    </div>
+}
