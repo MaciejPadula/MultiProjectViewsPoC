@@ -1,4 +1,3 @@
-using Microsoft.AspNet.Identity;
 using ModularMonolithPoC.Infrastructure;
 using ModularMonolithPoC.Login;
 using ModularMonolithPoC.ProductList;
@@ -7,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 builder.Services.AddLoginModule();
 builder.Services.AddProductListModule();
 builder.Services.AddInfrastructureModule();
